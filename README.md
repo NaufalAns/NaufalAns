@@ -1,3 +1,4 @@
+```php
 <?php
 
 namespace NaufalAns;
@@ -15,3 +16,4 @@ class About extends Me
         ];
     }
 }
+```
