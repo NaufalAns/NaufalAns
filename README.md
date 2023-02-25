@@ -13,6 +13,9 @@ class About extends Me
             Codeigniter::class
             Javascript::class,
             Vuejs::class,
+            Css::class,
+            Bootstrap::class,
+            Tailwind::class,
         ];
     }
 }
