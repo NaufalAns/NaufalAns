@@ -1,0 +1,99 @@
+<svg fill="none" viewBox="0 0 800 800" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap');
+
+                main {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    padding: 20px;
+                    font-family: 'Poppins', sans-serif !important;
+                }
+
+                h1 {
+                    margin-bottom: 2rem !important;
+                }
+
+                img {
+                    margin: 10px 0px 10px 0px;
+                }
+
+                .img-one {
+                    animation: float 3s ease-in-out infinite;
+                }
+
+                .img-two {
+                    animation: float 4s ease-in-out infinite;
+                }
+
+                .coding-from-home {
+                    width: 120px;
+                    animation: float 5s ease-in-out infinite;
+                }
+
+                @keyframes float {
+                    0% {
+                        transform: translatey(0px);
+                    }
+
+                    50% {
+                        transform: translatey(10px);
+                    }
+
+                    100% {
+                        transform: translatey(0px);
+                    }
+                }
+
+                .typewriter h1 {
+                    overflow: hidden;
+                    border-right: .15em solid #ffcc00;
+                    white-space: nowrap;
+                    margin: 0 auto;
+                    letter-spacing: .10em;
+                    animation:
+                        typing 3s steps(40, end),
+                        blink-caret .75s step-end infinite;
+                }
+
+                @keyframes typing {
+                    from {
+                        width: 0
+                    }
+
+                    to {
+                        width: 100%
+                    }
+                }
+
+                @keyframes blink-caret {
+
+                    from,
+                    to {
+                        border-color: transparent
+                    }
+
+                    50% {
+                        border-color: #ffcc00;
+                    }
+                }
+            </style>
+            <main>
+                <!-- <div class="typewriter">
+                    <h1>Hello, I'm Naufal Anshor AL Azfar!</h1>
+                </div> -->
+
+                <img class="coding-from-home" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
+                <img class="img-one"
+                    src="https://github-readme-stats.vercel.app/api?username=naufalans&amp;show_icons=true&amp;hide=prs,contribs&amp;count_private=true" />
+                <img class="img-two"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=naufalans&amp;layout=compact" />
+            </main>
+        </div>
+    </foreignObject>
+</svg>
