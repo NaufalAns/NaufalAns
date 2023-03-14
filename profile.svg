@@ -1,0 +1,67 @@
+<svg fill="none" viewBox="0 0 800 600" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    padding: 20px;
+                }
+
+                div {
+                    margin: 10px 0px 10px 0px;
+                }
+
+                .coding-from-home {
+                    background-image: url('https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif');
+                    width: 120px;
+                    height: 150px;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    animation: float 5s ease-in-out infinite;
+                }
+
+                .img-one {
+                    background-image: url('https://github-readme-stats.vercel.app/api?username=naufalans&amp;show_icons=true&amp;hide=prs,contribs&amp;count_private=true');
+                    width: 400px;
+                    height: 130px;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    animation: float 3s ease-in-out infinite;
+                }
+
+                .img-two {
+                    background-image: url('https://github-readme-stats.vercel.app/api/top-langs/?username=naufalans&amp;layout=compact');
+                    width: 300px;
+                    height: 170px;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    animation: float 4s ease-in-out infinite;
+                }
+
+                @keyframes float {
+                    0% {
+                        transform: translatey(0px);
+                    }
+
+                    50% {
+                        transform: translatey(10px);
+                    }
+
+                    100% {
+                        transform: translatey(0px);
+                    }
+                }
+            </style>
+            <div class="container">
+                <div class="coding-from-home"> </div>
+                <div class="img-one"> </div>
+                <div class="img-two"> </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
