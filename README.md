@@ -20,3 +20,7 @@ class About extends Me
     }
 }
 ```
+
+<div align="center">
+    <img src="./animation.svg"/>
+</div>
