@@ -1,6 +1,8 @@
 <div align="center">
-    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="120">
+    <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
+<!--     <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naufalans&layout=compact"> -->
 </div>
+<br>
 
 ```php
 <?php
@@ -25,7 +27,6 @@ class About extends Me
 }
 ```
 
-<div align="center">
+<!-- <div align="center">
     <img height="150" src="https://github-readme-stats.vercel.app/api?username=naufalans&show_icons=true&hide=prs,contribs&count_private=true">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naufalans&layout=compact">
-</div>
+</div> -->
