@@ -16,12 +16,6 @@ class About extends Me
         return [
             Php::class,
             Laravel::class,
-            Codeigniter::class
-            Javascript::class,
-            Vuejs::class,
-            Css::class,
-            Bootstrap::class,
-            Tailwind::class,
         ];
     }
 }
